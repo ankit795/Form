@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
+
+.regform {
+    margin: auto;
+    padding: 0.62px 0px 0.62px 0px;
+}
+
+h1 {
+    margin-left: 18rem;
+}
+
+h4 {
+    margin-left: 18rem;
+    margin-top: 0.5rem;
+}
+
+hr {
+    margin-top: 1.2rem;
+    margin-left: 8rem;
+    width: 53rem;
+    border-width: 0.1rem;
+}
+
+.main {
+    width: 66rem;
+    margin: auto;
+}
+
+#name {
+    width: 10rem;
+    margin-top: 2rem;
+    height: 3rem;
+}
+
+.name {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.firstname {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 2rem;
+    padding: 0 2rem;
+    font-size: 0.6rem;
+}
+
+.lastname {
+    position: relative;
+    left: 23rem;
+    top: -5.5rem;
+    line-height: 2rem;
+    padding: 0 2rem;
+    font-size: 0.6rem;
+}
+
+.firstlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    left: 10rem;
+    top: -1.4rem;
+}
+
+.lastlabel {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    left: 23rem;
+    top: -4.8rem;
+}
+
+.Email {
+    position: relative;
+    left: 17rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.Linkedin {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.03rem;
+    font-size: 1.5rem;
+}
+
+.Drupal {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.Position {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.start {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.Mobile {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+#applicant {
+    position: relative;
+    left: -5rem;
+    top: 2rem;
+    line-height: 1.5rem;
+    width: 18rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+#city {
+    position: relative;
+    left: 10rem;
+    line-height: 1.5rem;
+    width: 18rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+#relocate {
+    position: relative;
+    left: 10rem;
+    top: -3rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.last-company {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.5rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+.comment {
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    line-height: 1.9rem;
+    width: 17rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}
+
+button {
+    position: relative;
+    left: -12rem;
+    top: 3.2rem;
+    line-height: 3rem;
+    width: 9rem;
+    margin-left: 7rem;
+    padding: 0 0.2rem;
+    font-size: 1.5rem;
+}

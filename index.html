@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript"> 
+        /*  function changestatus() {
+                                                                            var status = document.getElementById("city");
+                                                                            if (status.value == 0) {
+                                                                                document.getElementById("txtData").style.visibility = "hidden";
+                                                                            } else {
+                                                                                document.getElementById("txtData").style.visibility = "visible";
+                                                                            }
+                                                                        } */
+       /*  function save(){
+         var xmlhttp;
+         xmlhttp = new XMLHttpRequest();
+         xmlhttp.open("GET","insert.php?firstname="
+         +document.getElementById("t1").value+
+         "lastName=",+document.getElementById("t2").value+
+         "email=",+document.getElementById("t3").value+
+         "linkedin=",+document.getElementById("t4").value+
+         "drupal=",+document.getElementById("t5").value+
+         "position=",+document.getElementById("t6").value+
+         "Mobile=",+document.getElementById("t7").value+
+         "city=",+document.getElementById("t8").value+
+         "willing=",+document.getElementById("t9").value+
+         "lastcompany=",+document.getElementById("t10").value+
+         "comments=",+document.getElementById("t11").value,false);      
+         xmlhttp.send(null);
+        } */
+
+
+
+
+        function changestatus() {
+            var status = document.getElementById("city");
+            if (status.value == "Del") {
+                document.getElementById("relocate").style.visibility = "hidden";
+            } else {
+                document.getElementById("relocate").style.visibility = "visible";
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <form action="insert.php" method="POST">
+    <div class="regform">
+        <h1>Apply For Position</h1>
+
+        <h4>Please complete the form below to apply for a position with us. </h4>
+        <hr>
+    </div>
+    <div class="main">
+        <form action="">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="firstname" required><br>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="lastName" required>
+                <label class="lastlabel">Last Name</label>
+            </div>
+
+            <h2 class="name">Email</h2>
+            <input class="Email" type="text" name="email" required>
+
+            <h2 class="name">Linkedin profile </h2>
+            <input class="Linkedin" type="text" name="linkedin " required>
+
+            <h2 class="name">Drupal.org Profile link</h2>
+            <input class="Drupal" type="text" name="drupal" required>
+
+            <h2 class="name">Position Applying for</h2>
+            <input class="Position" type="text" name="position" required>
+
+            <h2 class="name">When can you start?</h2>
+            <input class="start" type="text" name="Whencanyoustart?" required>
+
+            <h2 class="name">Mobile No</h2>
+            <input class="Mobile" type="number" name="Mobile" id="Mobile Nummber" Pattern="^\d{10}$" required="required"></input>
+
+
+            <h2 id="applicant">City</h2>
+            <select id="city" name="city" onchange="changestatus()" required>
+            
+                <option value="Del">Delhi</option>
+                <option value="Oth">Others</option>
+            </select>
+           <!--   <input type="text" id="txtdata">    -->
+            
+
+            <h2 class="name">Are you willing to<br> relocate? </h2>
+            <select id="relocate" name="willing" onchange="changestatus()" required>
+                <option value="0">Yes</option>
+                <option value="1">No</option>
+                <option value="2">Not Sure</option>
+            </select>
+         <!--   <input type="text" id="txtdata">  -->
+
+            <h2 class="name">Last company you<br> worked for:</h2>
+            <input class="last-company" type="text" name="lastcompany" required>
+
+            <h2 class="name">Comments:</h2>
+            <textarea class="comment" name="comments" required></textarea>
+
+            <button type="submit">Submit</button>
+
+         <!--    <input type="button" name="btn" value="Submit" onclick="save();"></input> -->
+
+
+
+        </form>
+    </div>
+</form>
+</body>
+
+</html>
